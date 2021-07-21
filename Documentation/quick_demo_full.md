@@ -19,7 +19,7 @@ You will first need to **clone** this repository.
 
 1. Open a terminal and navigate to the folder where you want to host the repository. 
 ```bash
-git clone --recurse-submodules https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation.git
+git clone --recurse-submodules https://github.com/BRL-Robot-AI/Robotics-Object-Pose-Estimation.git
 ```
 
 2. [Install Unity `2020.2.*`.](install_unity.md)
