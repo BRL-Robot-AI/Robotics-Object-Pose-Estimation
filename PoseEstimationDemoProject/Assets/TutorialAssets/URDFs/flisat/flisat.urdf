@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="flisat">
+  <link name="flisat_plate_link">
+    <contact>
+      <lateral_friction value="1.0"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!--Leg 1-->
+  <joint name="flisat_leg_1_joint" type="fixed">
+    <origin xyz="0.071207 0.071207 0.005503" rpy="-0.11938 0.11938 0"/>
+    <parent link="flisat_plate_link"/>
+    <child link="flisat_leg_1_link"/>
+  </joint>
+  <link name="flisat_leg_1_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!--Leg 2-->
+  <joint name="flisat_leg_2_joint" type="fixed">
+    <origin xyz="0.071207 -0.071207 0.005503" rpy="0.11938 0.11938 0"/>
+    <parent link="flisat_plate_link"/>
+    <child link="flisat_leg_2_link"/>
+  </joint>
+  <link name="flisat_leg_2_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!--Leg 3-->
+  <joint name="flisat_leg_3_joint" type="fixed">
+    <origin xyz="-0.071207 -0.071207 0.005503" rpy="0.11938 -0.11938 0"/>
+    <parent link="flisat_plate_link"/>
+    <child link="flisat_leg_3_link"/>
+  </joint>
+  <link name="flisat_leg_3_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!--Leg 4-->
+  <joint name="flisat_leg_4_joint" type="fixed">
+    <origin xyz="-0.071207 0.071207 0.005503" rpy="-0.11938 -0.11938 0"/>
+    <parent link="flisat_plate_link"/>
+    <child link="flisat_leg_4_link"/>
+  </joint>
+  <link name="flisat_leg_4_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+       <mass value=".0"/>
+       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+
+</robot>
+
