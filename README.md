@@ -1,3 +1,30 @@
+# BRL Instruction after forking the object pose estimation demo repo.
+
+## Prerequisites
+
+You will first need to **clone** this repository. 
+
+1. Open a terminal and navigate to the folder where you want to host the repository. 
+```bash
+git clone --recurse-submodules https://github.com/BRL-Robot-AI/Robotics-Object-Pose-Estimation.git
+```
+
+2. [Install Unity `2020.2.6f1`.](install_unity.md)
+
+## <a name='setup'>Setup</a>
+
+1. Open the completed project. In the Unity Hub, click the `Add` button, and select `Robotics-Object-Pose-Estimation/PoseEstimationDemoProject` from inside the file location where you cloned the repo. 
+
+2. Open the scene. Go to `Assets/Scenes` and double click on `flisat_assembled` or `flisat_parts`.
+
+3. Click the play button on the top of the main screen. Then, it will automatically randomize the objects and save the data.
+
+4. You can check the saved data by clicking the Main Camera object in the Hierarchy tab and then click the `Show Folder` button in the Inspector-Latest Output Folder tab. 
+
+
+
+
+
 # Object Pose Estimation Demo 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
