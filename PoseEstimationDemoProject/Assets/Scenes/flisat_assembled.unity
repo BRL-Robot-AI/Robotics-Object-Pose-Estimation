@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029113, g: 0.22572407, b: 0.30693033, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 4459859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1930305822}
   m_Father: {fileID: 1205183184}
@@ -194,7 +194,7 @@ Transform:
   m_GameObject: {fileID: 40923636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491380368}
   m_Father: {fileID: 162742999}
@@ -320,6 +320,7 @@ ArticulationBody:
   m_JointFriction: 0.05
   m_Immovable: 1
   m_UseGravity: 0
+  m_CollisionDetectionMode: 0
 --- !u!114 &78890623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,7 +492,7 @@ Transform:
   m_GameObject: {fileID: 271825136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 539093591}
   m_Father: {fileID: 481571432}
@@ -1172,6 +1173,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: flisat_leg
       objectReference: {fileID: 0}
+    - target: {fileID: 5157161901851654986, guid: 505aa7bd8646ef149bc2c60c92ad773c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157161901851654986, guid: 505aa7bd8646ef149bc2c60c92ad773c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157161901851654986, guid: 505aa7bd8646ef149bc2c60c92ad773c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4515508263498773411, guid: 505aa7bd8646ef149bc2c60c92ad773c, type: 3}
     - {fileID: 9121278374854531564, guid: 505aa7bd8646ef149bc2c60c92ad773c, type: 3}
@@ -1270,7 +1283,7 @@ Transform:
   m_GameObject: {fileID: 619637838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1899750955}
   m_Father: {fileID: 1362262274}
@@ -1504,6 +1517,7 @@ ArticulationBody:
   m_JointFriction: 0.05
   m_Immovable: 0
   m_UseGravity: 0
+  m_CollisionDetectionMode: 0
 --- !u!114 &641640897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1764,7 @@ Transform:
   m_GameObject: {fileID: 669894093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 512102339}
   m_Father: {fileID: 897303208}
@@ -2053,6 +2067,7 @@ ArticulationBody:
   m_JointFriction: 0.05
   m_Immovable: 0
   m_UseGravity: 0
+  m_CollisionDetectionMode: 0
 --- !u!114 &681282267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,7 +2107,7 @@ Transform:
   m_GameObject: {fileID: 767885366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1416872978}
   m_Father: {fileID: 176045930}
@@ -2137,7 +2152,7 @@ Transform:
   m_GameObject: {fileID: 814407055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2029399593}
   m_Father: {fileID: 137704653}
@@ -2591,7 +2606,7 @@ Transform:
   m_GameObject: {fileID: 1211329013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1476897824}
   m_Father: {fileID: 1707300943}
@@ -2636,7 +2651,7 @@ Transform:
   m_GameObject: {fileID: 1221287406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1533616278}
   m_Father: {fileID: 2147163591}
@@ -2819,6 +2834,7 @@ ArticulationBody:
   m_JointFriction: 0.05
   m_Immovable: 0
   m_UseGravity: 0
+  m_CollisionDetectionMode: 0
 --- !u!114 &1364504219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3303,7 +3319,7 @@ Transform:
   m_GameObject: {fileID: 1776992440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1122072093}
   m_Father: {fileID: 566479811}
@@ -3610,6 +3626,10 @@ PrefabInstance:
       value: flisat_plate
       objectReference: {fileID: 0}
     - target: {fileID: 4663071996118924855, guid: 19d7ed0e205d5a93294996b07dc82f35, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663071996118924855, guid: 19d7ed0e205d5a93294996b07dc82f35, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ff148f0c62c44f1e1b84b2ba4f91d2ac, type: 2}
@@ -3844,6 +3864,7 @@ ArticulationBody:
   m_JointFriction: 0.05
   m_Immovable: 0
   m_UseGravity: 0
+  m_CollisionDetectionMode: 0
 --- !u!114 &1988984832
 MonoBehaviour:
   m_ObjectHideFlags: 0

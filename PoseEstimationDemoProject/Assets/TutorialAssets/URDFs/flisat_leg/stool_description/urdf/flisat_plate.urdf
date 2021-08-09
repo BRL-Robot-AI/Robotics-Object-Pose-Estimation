@@ -13,13 +13,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="1 1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>

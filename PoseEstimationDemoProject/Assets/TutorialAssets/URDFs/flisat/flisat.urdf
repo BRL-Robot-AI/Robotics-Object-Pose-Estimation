@@ -12,20 +12,20 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="1 1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_plate.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>
 
   <!--Leg 1-->
   <joint name="flisat_leg_1_joint" type="fixed">
-    <origin xyz="0.071207 0.071207 0.005503" rpy="-0.11938 0.11938 0"/>
+    <origin xyz="0.071207 0.071207 0.028303" rpy="-0.11938 0.11938 0"/>
     <parent link="flisat_plate_link"/>
     <child link="flisat_leg_1_link"/>
   </joint>
@@ -38,20 +38,20 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>
 
   <!--Leg 2-->
   <joint name="flisat_leg_2_joint" type="fixed">
-    <origin xyz="0.071207 -0.071207 0.005503" rpy="0.11938 0.11938 0"/>
+    <origin xyz="0.071207 -0.071207 0.028303" rpy="0.11938 0.11938 0"/>
     <parent link="flisat_plate_link"/>
     <child link="flisat_leg_2_link"/>
   </joint>
@@ -64,20 +64,20 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>
 
   <!--Leg 3-->
   <joint name="flisat_leg_3_joint" type="fixed">
-    <origin xyz="-0.071207 -0.071207 0.005503" rpy="0.11938 -0.11938 0"/>
+    <origin xyz="-0.071207 -0.071207 0.028303" rpy="0.11938 -0.11938 0"/>
     <parent link="flisat_plate_link"/>
     <child link="flisat_leg_3_link"/>
   </joint>
@@ -90,20 +90,20 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>
 
   <!--Leg 4-->
   <joint name="flisat_leg_4_joint" type="fixed">
-    <origin xyz="-0.071207 0.071207 0.005503" rpy="-0.11938 -0.11938 0"/>
+    <origin xyz="-0.071207 0.071207 0.028303" rpy="-0.11938 -0.11938 0"/>
     <parent link="flisat_plate_link"/>
     <child link="flisat_leg_4_link"/>
   </joint>
@@ -116,13 +116,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="0.001 0.001 0.001" />
+        <mesh filename="package://stool_description/meshes/flisat_leg.stl" scale="1 1 1" />
       </geometry>
     </collision>
   </link>
